@@ -1,0 +1,74 @@
+body{
+ text-align:center;   
+}
+
+#deseos{
+background-image: url("fondo.png");
+color:rgb(255, 0, 0);
+padding:200px;
+}
+
+#regalos{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#peliculas{
+    background: linear-gradient(rgb(251, 255, 9),rgb(255, 174, 0),red);
+    padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.menu{
+list-style:none;
+position:absolute;
+top:10px;
+right:0px;
+z-index:10;
+cursor:pointer;
+background-color: cyan;
+width:100%;
+}
+
+.links{
+float:left;
+padding-top:5px;
+padding-left:9px;
+padding-right: 9px;
+padding-bottom: 5px;
+font-size: 20px;
+font-family: 'f Feeling Soon', sans-serif;
+color:blue;
+}
+
+h1{
+    font-family: 'Snaps Taste Christmas', sans-serif;
+    font-size: 40px;
+    color:rgb(19, 66, 33);
+}
+
+h3{
+    font-family: 'Grinched', sans-serif;
+color:rgb(5, 151, 66);
+font-size:25px;
+}
+
+h2{
+    font-family: 'Grinched', sans-serif;
+    color:rgb(5, 151, 66);
+    font-size: 25px;
+}
+
+.linea{
+    height: 5px;
+    background-color: rgb(165, 162, 5);
+    width: 100px;
+    margin: 2px auto;
+}
+
+.video{
+    position: fixed;
+    right: 10;
+    bottom:10;
+    z-index: -1;
+}
